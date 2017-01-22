@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Sample One</title>
+
+		<!-- Bootstrap CSS -->
+		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<!-- Google Font -->
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+		<!-- Font Awesome -->
+		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+		<!-- Custom Stylesheet -->
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+
+		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
+			<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+		<!-- Header bar -->
+		<header>
+		<div class="headerBar">
+		<div class="container">
+			<div class="row">
+				<!-- Socail Icons -->
+				<div class="col-xs-offset-8 col-sm-offset-8 col-md-offset-8 col-lg-offset-8 col-xs-2 col-sm-2 col-md-2 col-lg-2 text-right">
+					<!-- Facebook Icon -->
+					<a href="https://www.facebook.com/" target="_blank">
+					<i class="fa fa-facebook social-icon" aria-hidden="true"></i></a>
+					<!-- Twitter Icon -->
+					<a href="https://twitter.com/AndrewCDuarte" target="_blank">
+					<i class="fa fa-twitter social-icon" aria-hidden="true"></i></a>
+					<!-- LinkedIn Icon -->
+					<a href="https://au.linkedin.com/in/andrewcduarte" target="_blank">
+					<i class="fa fa-linkedin social-icon" aria-hidden="true"></i></a>
+				</div>
+				<!-- Login / Register -->
+				<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+					<!-- Login -->
+					<a href="/">
+					<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 text-center member-btn">
+						<i class="fa fa-lock" aria-hidden="true"></i>Login
+					</div></a>
+					<!-- Register -->
+					<a href="/">
+					<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 text-center member-btn">
+						<i class="fa fa-user" aria-hidden="true"></i>Register
+					</div></a>
+				</div>
+			</div>
+		</div>
+		</div>
+		<!-- Navigation bar -->
+		<div class="container">
+			<div class="row">
+				<!-- Main Nav -->
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<nav class="navbar">
+					  <div class="container-fluid">
+					    <div class="navbar-header">
+					      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+					        <span class="icon-bar"></span>
+					        <span class="icon-bar"></span>
+					        <span class="icon-bar"></span>                        
+					      </button>
+					      <!-- Logo -->
+					      <a class="navbar-brand logo" href="#"><img src="images/logo.svg" alt="Demo Logo Image"></a>
+					    </div>
+					    <div class="collapse navbar-collapse" id="myNavbar">
+					      <ul class="nav navbar-nav">
+					        <li class="dropdown">
+					          <a class="dropdown-toggle" data-toggle="dropdown" href="#">JOB SEEKERS<span class="fa fa-chevron-down drop-icon"></span></a>
+					          <ul class="dropdown-menu">
+					            <li><a href="#">Browse Jobs</a></li>
+					            <li><a href="#">Job Alerts</a></li>
+					            <li><a href="#">Resume Tips</a></li>
+					          </ul>
+					        </li>
+					        <li class="active"><a href="#">Employers</a></li>
+					        <li><a href="#">Our Sectors</a></li>
+					        <li><a href="#">About Us</a></li>
+					        <li><a href="#">Contact Us</a></li>
+					      </ul>
+					      <ul class="nav navbar-nav navbar-right hidden-md hidden-lg">
+					        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+					        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+					      </ul>
+					    </div>
+					  </div>
+					</nav>
+				</div>
+			</div>
+		</div>
+		</header>
+		<!-- Banner -->
+		<div class="banner-box">
+			<div class="banner-fore">
+				<div class="banner-overlay">
+					<div class="container">
+						<!-- Banner Title -->
+						<div class="row">
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+								<h1>Find a job</h1>
+							</div>
+						</div>
+						<!-- Search Field -->
+						<div class="row">
+							<form class="form-inline">
+								<div class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
+								  <div class="form-group">
+								 	 
+									   <label for="keyword">Keyword</label>
+									    <input type="text" class="form-control" id="keyword" placeholder="keywords">
+								  </div>
+							  	</div>
+								<div class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
+								  <div class="form-group">
+								    <label for="pwd">Location</label>
+								    <select class="form-control" id="sel1">
+								    	<option disabled selected value>Location</option>
+									    <option>1</option>
+									    <option>2</option>
+									    <option>3</option>
+									    <option>4</option>
+								  	</select>
+								  </div>
+								</div>
+								<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 text-center">
+									<button type="submit" class="btn btn-search"><i class="fa fa-search" aria-hidden="true"></i></button>
+								</div>
+							</form>
+						</div>
+						<!-- Banner Slogan -->
+						<div class="row">
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+								<p class="slogan">We’ve over <strong>12 000</strong> job offers for you!</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Banner Bar -->
+		<div class="ctaBar">
+			<div class="container">
+				
+			</div>
+		</div>
+		<!-- Categories  -->
+		<div class="container-fluid">
+						
+		</div>
+		<!-- Jobs  -->
+		<div class="container-fluid">
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+		</div>
+		<!-- News  -->
+		<div class="container-fluid">
+			
+		</div>
+		<!-- Twiiter -->
+		<div class="container-fluid">
+			
+		</div>
+		<!-- Footer  Bar -->
+		<div class="container-fluid">
+			
+		</div>
+		<!-- Footer menu -->
+		<div class="container-fluid">
+			
+		</div>		
+		<!-- jQuery -->
+		<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+		<!-- Bootstrap JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	</body>
+</html>
