@@ -47,6 +47,16 @@ Stylesheet Components:
 		font-size: 65px;
 		font-weight: 700;
 	}
+	
+	h2{
+		font-size: 32px;
+		text-transform: uppercase;
+	}
+
+	h2,h3,h4,h5,h6{
+		color: #58ba2b;
+		font-weight: 700;
+	}
 
 /* 2. HEADER SECTION */
 	/* - HEADER BAR */
@@ -123,41 +133,41 @@ Stylesheet Components:
 	/* 	- BANNER  */
 	.banner-box{
 		position: relative;
-		height: 508px;
-		background: url('../images/banner-bg.jpg') no-repeat top center;
-		background-position-y: 100px;
-		background-size: contain;
-		background-attachment: fixed;
+	    min-height: 509px;
+	    width: 100%;
+	    background: url(../images/banner-bg.jpg) no-repeat;
+	    background-size: contain;
+	    background-attachment: fixed;
+	    background-position: center 100px;
 	}
 
-	.banner-box .row h1{
-		position: absolute;
-		color: #fff;
-		top: 180px;
-		width: 100%;
-	}
-
-	.banner-box .row .form-inline{
-		position: absolute;
-		top: 297px;
-		width: 1170px;
-	}
-	
 	.banner-fore{
-		position: absolute;
-		height: 508px;
-		width: 100%;
-		background-image: url('../images/lady.png');
-		background-size: contain;
-		background-repeat: no-repeat;
-		background-position-y: 100px;
+	    position: absolute;
+	    height: 100%;
+	    width: 100%;
+	    background-image: url(../images/lady.png);
+	    background-size: contain;
+	    background-repeat: no-repeat;
+	    background-position: center 100px;
 	}
 
 	.banner-overlay{
 		background-size: contain;
-		height: 508px;
+		height: 100%;
 		background-color: rgba(118, 120, 121, 0.75);
 	}
+
+	.banner-box .row h1{
+		position: relative;
+		color: #fff;
+		top: 180px;
+	}
+
+	.banner-box .row .form-inline{
+		position: relative;
+    	top: 198px;
+	}
+	
 
 	.banner-box .form-group{
 		width: 100%;
@@ -209,17 +219,24 @@ Stylesheet Components:
 	}
 
 	.banner-box .slogan{
-		color: #fff;
-		font-size: 34px;
-		position: absolute;
-		top: 345px;
-		width: 1170px;
+    	position: relative;
+    	top: 203px;
+    	font-size: 34px;
+    	color: #fff;
 	}
 
 
 /* 4. CONTENT SECTION */
 	/* 	- CTA BAR */
-	.ctaBar{
+	.cta-bar{
 		height: 66px;
 		background-color: #58ba2b;
+	}
+
+	.cta-btn{
+		color: #fff;
+	    border: #fff solid 1px;
+	    padding-top: 6px;
+	    padding-bottom: 6px;
+	    margin-top: 16px;
 	}
