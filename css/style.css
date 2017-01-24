@@ -133,6 +133,8 @@ Stylesheet Components:
 	/* 	- BANNER  */
 	.banner-box{
 		position: relative;
+		top: 0;
+		left: 0;
 	    min-height: 509px;
 	    width: 100%;
 	    background: url(../images/banner-bg.jpg) no-repeat;
@@ -143,6 +145,8 @@ Stylesheet Components:
 
 	.banner-fore{
 	    position: absolute;
+	    top: 0;
+	    left: 0;
 	    height: 100%;
 	    width: 100%;
 	    background-image: url(../images/lady.png);
