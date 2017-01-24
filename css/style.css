@@ -129,6 +129,15 @@ Stylesheet Components:
 	.drop-icon {
 		padding-left: 9px;
 	}
+
+	.navbar-toggle{
+		margin-top: 19px;
+	}
+
+	.icon-bar {
+    background-color: #000;
+    }
+
 /* 3. BANNER SECTION */
 	/* 	- BANNER  */
 	.banner-box{
