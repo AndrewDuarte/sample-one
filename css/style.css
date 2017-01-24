@@ -132,6 +132,7 @@ Stylesheet Components:
 
 	.navbar-toggle{
 		margin-top: 19px;
+		padding-right: inherit;
 	}
 
 	.icon-bar {
