@@ -1,3 +1,57 @@
+/* Custom Fonts */
+@font-face {
+  font-family: 'customFont';
+  src:  url('../fonts/customFont.eot?l9zoua');
+  src:  url('../fonts/customFont.eot?l9zoua#iefix') format('embedded-opentype'),
+    url('../fonts/customFont.ttf?l9zoua') format('truetype'),
+    url('../fonts/customFont.woff?l9zoua') format('woff'),
+    url('../fonts/customFont.svg?l9zoua#customFont') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'customFont' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-accounting:before {
+  content: "\e900";
+}
+.icon-healthcare:before {
+  content: "\e901";
+}
+.icon-construction:before {
+  content: "\e902";
+}
+.icon-tech:before {
+  content: "\e903";
+}
+.icon-marketing:before {
+  content: "\e904";
+}
+.icon-retail:before {
+  content: "\e905";
+}
+.icon-logistics:before {
+  content: "\e906";
+}
+.icon-manufacture:before {
+  content: "\e907";
+}
+
+/* ---------- */
+
 /* Declaration Order:
 Related property declarations should be grouped together following the order:
 
@@ -37,6 +91,7 @@ Stylesheet Components:
 
 	a:hover{
 		color: #58ba2b;
+		text-decoration: none;
 	}
 
 	body{
@@ -50,12 +105,22 @@ Stylesheet Components:
 	
 	h2{
 		font-size: 32px;
+		color: #58ba2b;
+		font-weight: 700;
 		text-transform: uppercase;
 	}
 
-	h2,h3,h4,h5,h6{
+	h4,h5,h6{
 		color: #58ba2b;
 		font-weight: 700;
+		text-transform: uppercase;
+	}
+
+	h3{
+		color: #000;
+		font-size: 18px;
+		font-weight: 700;
+		text-transform: uppercase;
 	}
 
 /* 2. HEADER SECTION */
@@ -168,6 +233,8 @@ Stylesheet Components:
 	.banner-overlay{
 		background-size: contain;
 		height: 100%;
+		opacity: 1.0;
+		background-color: rgb(118, 120, 121);
 		background-color: rgba(118, 120, 121, 0.75);
 	}
 
@@ -247,10 +314,29 @@ Stylesheet Components:
 		background-color: #58ba2b;
 	}
 
+	.cta-btn:hover{
+	    background-color: #fff;
+    	color: #58ba2b;
+	}
+
 	.cta-btn{
 		color: #fff;
 	    border: #fff solid 1px;
 	    padding-top: 6px;
 	    padding-bottom: 6px;
 	    margin-top: 16px;
+	}
+
+	/* 	- CATEGORIES */
+
+	.categ-area{
+		padding-top: 58px;
+    	padding-bottom: 59px;
+		max-width: 100%;
+		border: 1px #c8c9c9 solid;
+	}
+
+	.icon-accounting, .icon-healthcare, .icon-construction, .icon-tech, .icon-marketing, .icon-marketing, .icon-retail, .icon-logistics, .icon-manufacture {
+	    font-size: 51px;
+	    color: #58ba2b;
 	}
