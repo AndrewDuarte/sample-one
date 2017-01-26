@@ -90,7 +90,7 @@ Stylesheet Components:
 	}
 
 	a:hover{
-		color: #58ba2b;
+		/* color: #58ba2b; */
 		text-decoration: none;
 	}
 
@@ -117,7 +117,6 @@ Stylesheet Components:
 	}
 
 	h3{
-		color: #000;
 		font-size: 18px;
 		font-weight: 700;
 		text-transform: uppercase;
@@ -328,6 +327,12 @@ Stylesheet Components:
 	}
 
 	/* 	- CATEGORIES */
+
+	a .categ-area:hover, a .categ-area:hover span{
+		background-color: #58ba2b;
+		color: #fff;
+	}
+
 
 	.categ-area{
 		padding-top: 58px;
