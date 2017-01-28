@@ -134,6 +134,11 @@ Stylesheet Components:
 	    background-color: #fff;
 	}
 
+	.navbar-brand>img{
+		width: 100%;
+		height: 100%;
+	}
+	
 	.headerBar{
 		background-color:#262626;
 		color: #fff;
