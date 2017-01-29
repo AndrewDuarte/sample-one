@@ -3,6 +3,7 @@ var gulp = require('gulp');
 
 //Calling in Gulp plugins
 var minifyCSS = require('gulp-minify-css');
+const imagemin = require('gulp-imagemin');
 
 
 //Terminal example of gulp
@@ -17,3 +18,10 @@ gulp.task('minify-css',function(){
 	.pipe(minifyCSS())
 	.pipe(gulp.dest('build'))
 });
+
+//Image optomisation
+gulp.task('minify-image', () =>
+    gulp.src('./images/*')
+        .pipe(imagemin())
+        .pipe(gulp.dest('images'))
+);

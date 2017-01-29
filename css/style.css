@@ -274,7 +274,6 @@ Stylesheet Components:
     	border-radius: inherit;
     	-webkit-appearance: none;
 	    -moz-appearance: none;
-	    appearance: none;
 		color: #fff;
 		background-color: transparent;
 	}
@@ -310,7 +309,6 @@ Stylesheet Components:
 		border-radius: inherit;
     	-webkit-appearance: none;
 	    -moz-appearance: none;
-	    appearance: none;
 	}
 
 	.banner-box .slogan{
