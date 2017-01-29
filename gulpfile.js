@@ -4,11 +4,20 @@ var gulp = require('gulp');
 //Calling in Gulp plugins
 var minifyCSS = require('gulp-minify-css');
 const imagemin = require('gulp-imagemin');
+var htmlmin = require('gulp-htmlmin');
 
 
 //Terminal example of gulp
 gulp.task('name-task', function(){
 	console.log('Wow, gulp is cool!');
+});
+
+
+//Minifying HTML file task
+gulp.task('minify-html', function() {
+  return gulp.src('./app/*.html')
+    .pipe(htmlmin({collapseWhitespace: true}))
+    .pipe(gulp.dest(''));
 });
 
 
